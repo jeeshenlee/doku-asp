@@ -39,7 +39,7 @@ namespace Com.Doku
         public static string getDate()
         {
             DateTime date = DateTime.Now;
-            return date.ToString("yyyyMMddHmmss");
+            return date.ToString("yyyyMMddHHmmss");
         }
 
         /// <summary>
