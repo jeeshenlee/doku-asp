@@ -15,10 +15,9 @@ namespace doku_library.example_payment_mobile
         {
             if (!Page.IsPostBack)
             {
-                Doku_Initiate.sharedKey = "M8Y79iqFvwN4"; //staging
                 //Doku_Initiate.sharedKey = "k8UhY5t4RF4e"; //local
                 //Doku_Initiate.sharedKey = "aKh4dSX72d6C";//luna
-                Doku_Initiate.mallId = "4401";
+                Doku_Initiate.mallId = "2074";
 
                 dynamic postData = Newtonsoft.Json.JsonConvert.DeserializeObject(Request.Form["data"]);
                 if (postData != null)
