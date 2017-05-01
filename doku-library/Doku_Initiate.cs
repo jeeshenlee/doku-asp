@@ -7,13 +7,17 @@ namespace Com.Doku
 {
     public class Doku_Initiate
     {
-        //public const string prePaymentUrl = "http://luna2.nsiapay.com/api/payment/PrePayment";
-        //public const string paymentUrl = "http://luna2.nsiapay.com/api/payment/paymentMip";
+        // Testing Payment Urls
+        //public const string prePaymentUrl = "http://staging.doku.com/api/payment/PrePayment";
+        //public const string paymentUrl = "http://staging.doku.com/api/payment/paymentMip";
+        //public const string directPaymentUrl = "http://staging.doku.com/api/payment/PaymentMIPDirect";
+        //public const string generateCodeUrl = "http://staging.doku.com/api/payment/doGeneratePaymentCode";
 
-        public const string prePaymentUrl = "http://staging.doku.com/api/payment/PrePayment";
-        public const string paymentUrl = "http://staging.doku.com/api/payment/paymentMip";
-        public const string directPaymentUrl = "http://staging.doku.com/api/payment/PaymentMIPDirect";
-        public const string generateCodeUrl = "http://staging.doku.com/api/payment/doGeneratePaymentCode";
+        // Production Payment Urls
+        public const string prePaymentUrl = "https://pay.doku.com/api/payment/PrePayment";
+        public const string paymentUrl = "https://pay.doku.com/api/payment/paymentMip";
+        public const string directPaymentUrl = "https://pay.doku.com/api/payment/PaymentMIPDirect";
+        public const string generateCodeUrl = "https://pay.doku.com/api/payment/doGeneratePaymentCode";
 
         public static string sharedKey;
         public static string mallId;
