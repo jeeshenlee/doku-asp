@@ -1,2 +1,2 @@
 # doku-asp
-DOKU Payment Gateway ASP library and Example
+This is an C#.NET code example of DOKU payment gateway.
